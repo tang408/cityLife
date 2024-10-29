@@ -1,0 +1,1621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container jc-end">
+                <i class="fas fa-user user-icon"></i>
+                <ul class="btn-ul">
+                    <li><a href="">登入</a></li>
+                    <li><a href="">註冊</a></li>
+                </ul>
+                <div class="dropdown">
+                    <img src="./img/language-icon.png">
+                    <a class="btn dropdown-toggle" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        日本語
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">日本語</a></li>
+                        <li><a class="dropdown-item" href="#">繁體中文</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <div class="logo">
+                        <img src="./img/logo.png">
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">關於我們</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">商　　城</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">服務項目</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">店鋪數字</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">會員中心</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex align-items-center">
+                        <div class="search-bar ms-3 me-3">
+                            <input type="text" placeholder="檢索">
+                            <button>
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                        <button class="hamburger">
+                            <img src="./img/hamburger.png">
+                        </button>
+                        <button class="clock-rotate mobile">
+                            <i class="fa-solid fa-clock-rotate-left" style="color: #988574;"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <span class="people ms-3">日本人來台人數：999999</span>
+        <div class="swiper-banner">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./img/pic.png"></div>
+                    <div class="swiper-slide"><img src="./img/pic.png"></div>
+                    <div class="swiper-slide"><img src="./img/pic.png"></div>
+                    <div class="swiper-slide"><img src="./img/pic.png"></div>
+                </div>
+            </div>
+            <div>
+                <div class="swiper-button-next banner-swiper-next"></div>
+                <div class="banner-name">Amour</div>
+                <div class="swiper-button-prev banner-swiper-prev"></div>
+            </div>
+
+            <div class="swiper-pagination banner-swiper-pagination"></div>
+        </div>
+
+        <div class="marquee-container">
+            <div class="marquee">
+                <span class="marquee-text">
+                    <strong>NEWS</strong> &nbsp;&nbsp; 8/10 &nbsp; | &nbsp; City Life 正式開幕刊登廣告優惠中
+                </span>
+            </div>
+        </div>
+        <!-- 店家推薦 -->
+        <div class="member-recommend container">
+            <div class="title-container">
+                <div class="name-group">
+                    <h2 class="title">店家推薦</h2>
+                    <div class="filter-container">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle dropdown-button" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                地區
+                            </button>
+
+                            <ul class="dropdown-menu">
+                                <li><button class="dropdown-item">北部</button></li>
+                                <li><button class="dropdown-item">中部</button></li>
+                                <li><button class="dropdown-item">南部</button></li>
+                            </ul>
+                        </div>
+
+                        <div class="dropdown class-dropdown">
+                            <button class="btn dropdown-toggle dropdown-button" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                類別
+                            </button>
+
+                            <ul class="dropdown-menu">
+                                <li><button class="dropdown-item">美食</button></li>
+                                <li><button class="dropdown-item">購物</button></li>
+                                <li><button class="dropdown-item">娛樂</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="divider"></div>
+            </div>
+
+            <div class="swiper-member member-content">
+                <div class="swiper-container member-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide member-slide">
+                            <div class="card">
+                                <div class="crad-header">
+                                    <div class="card-address">
+                                        <img src="./img/map.png"><span>台北市</span>
+                                    </div>
+                                    <div class="data">
+                                        <span class="activity">活動</span>
+                                        <span class="coupon">優惠卷</span>
+                                        <span class="job">徵才</span>
+                                    </div>
+                                </div>
+                                <div class="card-pic">
+                                    <div class="swiper-container">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide"><img src="./img/member1.png"></div>
+                                            <div class="swiper-slide"><img src="./img/member2.png"></div>
+                                            <div class="swiper-slide"><img src="./img/member3.png"></div>
+                                        </div>
+                                        <div class="card-pic-pagination"></div>
+                                    </div>
+                                </div>
+
+                                <div class="card-body">
+                                    <h3 class="card-title">Minerva</h3>
+                                    <img class="heart" src="./img/heart-space.png">
+                                    <div class="member-text">
+                                        <div class="member-img"><img src="./img/member-icon1.png"></div>
+
+                                        <div class="card-text">日式酒店</div>
+                                    </div>
+
+                                    <div class="member-text">
+                                        <div class="member-img"><img src="./img/member-icon2.png"></div>
+                                        <div class="card-text">20:00-01:00</div>
+                                    </div>
+
+                                    <div class="member-text">
+                                        <div class="member-img"><img src="./img/member-icon3.png"></div>
+                                        <div class="card-text">03-5555555</div>
+                                    </div>
+                                    <div class="member-href"><a href="">...more...</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="crad-header">
+                                    <div class="card-address">
+                                        <img src="./img/map.png"><span>台北市</span>
+                                    </div>
+                                    <div class="data">
+                                        <span class="activity">活動</span>
+                                        <span class="coupon">優惠卷</span>
+                                        <span class="job">徵才</span>
+                                    </div>
+                                </div>
+                                <div class="card-pic">
+                                    <div class="swiper-container">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide"><img src="./img/member1.png"></div>
+                                            <div class="swiper-slide"><img src="./img/member2.png"></div>
+                                            <div class="swiper-slide"><img src="./img/member3.png"></div>
+                                        </div>
+                                        <div class="card-pic-pagination"></div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Minerva</h3>
+                                    <img class="heart" src="./img/heart-space.png">
+                                    <div class="member-text">
+                                        <div class="member-img"><img src="./img/member-icon1.png"></div>
+
+                                        <div class="card-text">日式酒店</div>
+                                    </div>
+
+                                    <div class="member-text">
+                                        <div class="member-img"><img src="./img/member-icon2.png"></div>
+                                        <div class="card-text">20:00-01:00</div>
+                                    </div>
+
+                                    <div class="member-text">
+                                        <div class="member-img"><img src="./img/member-icon3.png"></div>
+                                        <div class="card-text">03-5555555</div>
+                                    </div>
+                                    <div class="member-href"><a href="">...more...</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="crad-header">
+                                    <div class="card-address">
+                                        <img src="./img/map.png"><span>台北市</span>
+                                    </div>
+                                    <div class="data">
+                                        <span class="activity">活動</span>
+                                        <span class="coupon">優惠卷</span>
+                                        <span class="job">徵才</span>
+                                    </div>
+                                </div>
+                                <div class="card-pic">
+                                    <div class="swiper-container">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide"><img src="./img/member1.png"></div>
+                                            <div class="swiper-slide"><img src="./img/member2.png"></div>
+                                            <div class="swiper-slide"><img src="./img/member3.png"></div>
+                                        </div>
+                                        <div class="card-pic-pagination"></div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Minerva</h3>
+                                    <img class="heart" src="./img/heart-space.png">
+                                    <div class="member-text">
+                                        <div class="member-img"><img src="./img/member-icon1.png"></div>
+
+                                        <div class="card-text">日式酒店</div>
+                                    </div>
+
+                                    <div class="member-text">
+                                        <div class="member-img"><img src="./img/member-icon2.png"></div>
+                                        <div class="card-text">20:00-01:00</div>
+                                    </div>
+
+                                    <div class="member-text">
+                                        <div class="member-img"><img src="./img/member-icon3.png"></div>
+                                        <div class="card-text">03-5555555</div>
+                                    </div>
+                                    <div class="member-href"><a href="">...more...</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="crad-header">
+                                    <div class="card-address">
+                                        <img src="./img/map.png"><span>台北市</span>
+                                    </div>
+                                    <div class="data">
+                                        <span class="activity">活動</span>
+                                        <span class="coupon">優惠卷</span>
+                                        <span class="job">徵才</span>
+                                    </div>
+                                </div>
+                                <div class="card-pic">
+                                    <div class="swiper-container">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide"><img src="./img/member1.png"></div>
+                                            <div class="swiper-slide"><img src="./img/member2.png"></div>
+                                            <div class="swiper-slide"><img src="./img/member3.png"></div>
+                                        </div>
+                                        <div class="card-pic-pagination"></div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Minerva</h3>
+                                    <img class="heart" src="./img/heart-space.png">
+                                    <div class="member-text">
+                                        <div class="member-img"><img src="./img/member-icon1.png"></div>
+
+                                        <div class="card-text">日式酒店</div>
+                                    </div>
+
+                                    <div class="member-text">
+                                        <div class="member-img"><img src="./img/member-icon2.png"></div>
+                                        <div class="card-text">20:00-01:00</div>
+                                    </div>
+
+                                    <div class="member-text">
+                                        <div class="member-img"><img src="./img/member-icon3.png"></div>
+                                        <div class="card-text">03-5555555</div>
+                                    </div>
+                                    <div class="member-href"><a href="">...more...</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next member-swiper-next"></div>
+                <div class="swiper-button-prev member-swiper-prev"></div>
+                <div class="swiper-pagination member-swiper-pagination"></div>
+            </div>
+        </div>
+
+        <!-- 觀光推薦 -->
+        <div class="sightsee-recommend container">
+            <div class="title-container">
+                <div class="name-group">
+                    <h2 class="title">觀光推薦</h2>
+                    <div class="filter-container">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle dropdown-button" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                地區
+                            </button>
+
+                            <ul class="dropdown-menu">
+                                <li><button class="dropdown-item">北部</button></li>
+                                <li><button class="dropdown-item">中部</button></li>
+                                <li><button class="dropdown-item">南部</button></li>
+                            </ul>
+                        </div>
+
+                        <div class="dropdown class-dropdown">
+                            <button class="btn dropdown-toggle dropdown-button" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                類別
+                            </button>
+
+                            <ul class="dropdown-menu">
+                                <li><button class="dropdown-item">美食</button></li>
+                                <li><button class="dropdown-item">購物</button></li>
+                                <li><button class="dropdown-item">娛樂</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="divider"></div>
+            </div>
+            <div class="sightsee-slider row">
+                <div class="swiper-container sightsee-container desktop">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide d-flex">
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <img src="./img/sightsee1.png" class="card-img-top sightsee1">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <h5 class="card-title mb-0"><img src="./img/map.png" class="me-1">
+                                                台北市 |
+                                                中正紀念堂</h5>
+                                            <img class="heart" src="./img/heart-space.png">
+                                        </div>
+                                        <p class="card-text fs-20">九份は新北市瑞芳区に属します。これが長い歳月経て「九份」という地名に変わったと言われています。</p>
+                                        <div class="sightsee-more"><a href="#">...more...</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+
+
+                                <div class="row g-0">
+                                    <div class="col-4">
+                                        <img src="./img/sightsee2.png" class="img-fluid rounded-start">
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <h5 class="card-title mb-0"><img src="./img/map.png" class="me-1"> 台北市
+                                                    |
+                                                    九份</h5>
+                                                <img class="heart" src="./img/heart-space.png">
+                                            </div>
+
+                                            <p class="card-text fs-18">九份は新北市瑞芳区に属します。これが長い歳月経て「九份」という地名に変わったと言われています。
+                                            </p>
+                                            <div class="sightsee-more"><a href="#">...more...</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col-4">
+                                        <img src="./img/sightsee3.png" class="img-fluid rounded-start">
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <h5 class="card-title mb-0"><img src="./img/map.png" class="me-1"> 台北市
+                                                    |
+                                                    十分</h5>
+                                                <img class="heart" src="./img/heart-space.png">
+                                            </div>
+
+                                            <p class="card-text fs-18">九份は新北市瑞芳区に属します。これが長い歳月経て「九份」という地名に変わったと言われています。
+                                            </p>
+                                            <div class="sightsee-more"><a href="#">...more...</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row g-0">
+                                    <div class="col-4">
+                                        <img src="./img/sightsee4.png" class="img-fluid rounded-start">
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <h5 class="card-title mb-0"><img src="./img/map.png" class="me-1"> 台北市
+                                                    |
+                                                    中正紀念堂</h5>
+                                                <img class="heart" src="./img/heart-space.png">
+                                            </div>
+
+                                            <p class="card-text fs-18">九份は新北市瑞芳区に属します。これが長い歳月経て「九份」という地名に変わったと言われています。
+                                            </p>
+                                            <div class="sightsee-more"><a href="#">...more...</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="swiper-slide d-flex">
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <img src="./img/sightsee1.png" class="card-img-top sightsee1">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <h5 class="card-title mb-0"><img src="./img/map.png" class="me-1">
+                                                台北市 |
+                                                中正紀念堂</h5>
+                                            <img class="heart" src="./img/heart-space.png">
+                                        </div>
+                                        <p class="card-text fs-20">九份は新北市瑞芳区に属します。これが長い歳月経て「九份」という地名に変わったと言われています。</p>
+                                        <div class="sightsee-more"><a href="#">...more...</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+
+
+                                <div class="row g-0">
+                                    <div class="col-4">
+                                        <img src="./img/sightsee2.png" class="img-fluid rounded-start">
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <h5 class="card-title mb-0"><img src="./img/map.png" class="me-1"> 台北市
+                                                    |
+                                                    九份</h5>
+                                                <img class="heart" src="./img/heart-space.png">
+                                            </div>
+
+                                            <p class="card-text fs-18">九份は新北市瑞芳区に属します。これが長い歳月経て「九份」という地名に変わったと言われています。
+                                            </p>
+                                            <div class="sightsee-more"><a href="#">...more...</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col-4">
+                                        <img src="./img/sightsee3.png" class="img-fluid rounded-start">
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <h5 class="card-title mb-0"><img src="./img/map.png" class="me-1"> 台北市
+                                                    |
+                                                    十分</h5>
+                                                <img class="heart" src="./img/heart-space.png">
+                                            </div>
+
+                                            <p class="card-text fs-18">九份は新北市瑞芳区に属します。これが長い歳月経て「九份」という地名に変わったと言われています。
+                                            </p>
+                                            <div class="sightsee-more"><a href="#">...more...</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row g-0">
+                                    <div class="col-4">
+                                        <img src="./img/sightsee4.png" class="img-fluid rounded-start">
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <h5 class="card-title mb-0"><img src="./img/map.png" class="me-1"> 台北市
+                                                    |
+                                                    中正紀念堂</h5>
+                                                <img class="heart" src="./img/heart-space.png">
+                                            </div>
+
+                                            <p class="card-text fs-18">九份は新北市瑞芳区に属します。これが長い歳月経て「九份」という地名に変わったと言われています。
+                                            </p>
+                                            <div class="sightsee-more"><a href="#">...more...</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide d-flex">
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <img src="./img/sightsee1.png" class="card-img-top sightsee1">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <h5 class="card-title mb-0"><img src="./img/map.png" class="me-1">
+                                                台北市 |
+                                                中正紀念堂</h5>
+                                            <img class="heart" src="./img/heart-space.png">
+                                        </div>
+                                        <p class="card-text fs-20">九份は新北市瑞芳区に属します。これが長い歳月経て「九份」という地名に変わったと言われています。</p>
+                                        <div class="sightsee-more"><a href="#">...more...</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="row g-0">
+                                    <div class="col-4">
+                                        <img src="./img/sightsee2.png" class="img-fluid rounded-start">
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <h5 class="card-title mb-0"><img src="./img/map.png" class="me-1"> 台北市
+                                                    |
+                                                    九份</h5>
+                                                <img class="heart" src="./img/heart-space.png">
+                                            </div>
+
+                                            <p class="card-text fs-18">九份は新北市瑞芳区に属します。これが長い歳月経て「九份」という地名に変わったと言われています。
+                                            </p>
+                                            <div class="sightsee-more"><a href="#">...more...</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row g-0">
+                                    <div class="col-4">
+                                        <img src="./img/sightsee3.png" class="img-fluid rounded-start">
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <h5 class="card-title mb-0"><img src="./img/map.png" class="me-1"> 台北市
+                                                    |
+                                                    十分</h5>
+                                                <img class="heart" src="./img/heart-space.png">
+                                            </div>
+
+                                            <p class="card-text fs-18">九份は新北市瑞芳区に属します。これが長い歳月経て「九份」という地名に変わったと言われています。
+                                            </p>
+                                            <div class="sightsee-more"><a href="#">...more...</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row g-0">
+                                    <div class="col-4">
+                                        <img src="./img/sightsee4.png" class="img-fluid rounded-start">
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <h5 class="card-title mb-0"><img src="./img/map.png" class="me-1"> 台北市
+                                                    |
+                                                    中正紀念堂</h5>
+                                                <img class="heart" src="./img/heart-space.png">
+                                            </div>
+
+                                            <p class="card-text fs-18">九份は新北市瑞芳区に属します。これが長い歳月経て「九份」という地名に変わったと言われています。
+                                            </p>
+                                            <div class="sightsee-more"><a href="#">...more...</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next sightsee-next"></div>
+                    <div class="swiper-button-prev sightsee-prev"></div>
+                    <div class="swiper-pagination sightsee-pagination"></div>
+                </div>
+
+                <div class="swiper-container sightsee-container mobile">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="./img/sightsee2.png" class="img-fluid rounded-start">
+                                </div>
+                                <div class="col-8">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <h5 class="card-title mb-0"><img src="./img/map.png" class="me-1">
+                                                台北市
+                                                |
+                                                九份</h5>
+                                            <img class="heart" src="./img/heart-space.png">
+                                        </div>
+
+                                        <p class="card-text fs-18">九份は新北市瑞芳区に属します。これが長い歳月経て「九份」という地名に変わったと言われています。
+                                        </p>
+                                        <div class="sightsee-more"><a href="#">...more...</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="./img/sightsee3.png" class="img-fluid rounded-start">
+                                </div>
+                                <div class="col-8">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <h5 class="card-title mb-0"><img src="./img/map.png" class="me-1">
+                                                台北市
+                                                |
+                                                十分</h5>
+                                            <img class="heart" src="./img/heart-space.png">
+                                        </div>
+
+                                        <p class="card-text fs-18">九份は新北市瑞芳区に属します。これが長い歳月経て「九份」という地名に変わったと言われています。
+                                        </p>
+                                        <div class="sightsee-more"><a href="#">...more...</a></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="./img/sightsee4.png" class="img-fluid rounded-start">
+                                </div>
+                                <div class="col-8">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <h5 class="card-title mb-0"><img src="./img/map.png" class="me-1">
+                                                台北市
+                                                |
+                                                中正紀念堂</h5>
+                                            <img class="heart" src="./img/heart-space.png">
+                                        </div>
+
+                                        <p class="card-text fs-18">九份は新北市瑞芳区に属します。これが長い歳月経て「九份」という地名に変わったと言われています。
+                                        </p>
+                                        <div class="sightsee-more"><a href="#">...more...</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="./img/sightsee2.png" class="img-fluid rounded-start">
+                                </div>
+                                <div class="col-8">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <h5 class="card-title mb-0"><img src="./img/map.png" class="me-1">
+                                                台北市
+                                                |
+                                                九份</h5>
+                                            <img class="heart" src="./img/heart-space.png">
+                                        </div>
+
+                                        <p class="card-text fs-18">九份は新北市瑞芳区に属します。これが長い歳月経て「九份」という地名に変わったと言われています。
+                                        </p>
+                                        <div class="sightsee-more"><a href="#">...more...</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="./img/sightsee3.png" class="img-fluid rounded-start">
+                                </div>
+                                <div class="col-8">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <h5 class="card-title mb-0"><img src="./img/map.png" class="me-1">
+                                                台北市
+                                                |
+                                                十分</h5>
+                                            <img class="heart" src="./img/heart-space.png">
+                                        </div>
+
+                                        <p class="card-text fs-18">九份は新北市瑞芳区に属します。これが長い歳月経て「九份」という地名に変わったと言われています。
+                                        </p>
+                                        <div class="sightsee-more"><a href="#">...more...</a></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="./img/sightsee4.png" class="img-fluid rounded-start">
+                                </div>
+                                <div class="col-8">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <h5 class="card-title mb-0"><img src="./img/map.png" class="me-1">
+                                                台北市
+                                                |
+                                                中正紀念堂</h5>
+                                            <img class="heart" src="./img/heart-space.png">
+                                        </div>
+
+                                        <p class="card-text fs-18">九份は新北市瑞芳区に属します。これが長い歳月経て「九份」という地名に変わったと言われています。
+                                        </p>
+                                        <div class="sightsee-more"><a href="#">...more...</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="./img/sightsee2.png" class="img-fluid rounded-start">
+                                </div>
+                                <div class="col-8">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <h5 class="card-title mb-0"><img src="./img/map.png" class="me-1">
+                                                台北市
+                                                |
+                                                九份</h5>
+                                            <img class="heart" src="./img/heart-space.png">
+                                        </div>
+
+                                        <p class="card-text fs-18">九份は新北市瑞芳区に属します。これが長い歳月経て「九份」という地名に変わったと言われています。
+                                        </p>
+                                        <div class="sightsee-more"><a href="#">...more...</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="./img/sightsee3.png" class="img-fluid rounded-start">
+                                </div>
+                                <div class="col-8">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <h5 class="card-title mb-0"><img src="./img/map.png" class="me-1">
+                                                台北市
+                                                |
+                                                十分</h5>
+                                            <img class="heart" src="./img/heart-space.png">
+                                        </div>
+
+                                        <p class="card-text fs-18">九份は新北市瑞芳区に属します。これが長い歳月経て「九份」という地名に変わったと言われています。
+                                        </p>
+                                        <div class="sightsee-more"><a href="#">...more...</a></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="./img/sightsee4.png" class="img-fluid rounded-start">
+                                </div>
+                                <div class="col-8">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <h5 class="card-title mb-0"><img src="./img/map.png" class="me-1">
+                                                台北市
+                                                |
+                                                中正紀念堂</h5>
+                                            <img class="heart" src="./img/heart-space.png">
+                                        </div>
+
+                                        <p class="card-text fs-18">九份は新北市瑞芳区に属します。これが長い歳月経て「九份」という地名に変わったと言われています。
+                                        </p>
+                                        <div class="sightsee-more"><a href="#">...more...</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next sightsee-next"></div>
+                    <div class="swiper-button-prev sightsee-prev"></div>
+                    <div class="swiper-pagination sightsee-pagination"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 日本人社團 -->
+        <div class="japan-club container">
+            <img src="./img/japan-text.png" class="japan-text desktop">
+            <div class="title-container">
+                <div class="name-group">
+                    <h2 class="title">日本人社團</h2>
+                    <div class="filter-container">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle dropdown-button" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                地區
+                            </button>
+
+                            <ul class="dropdown-menu">
+                                <li><button class="dropdown-item">北部</button></li>
+                                <li><button class="dropdown-item">中部</button></li>
+                                <li><button class="dropdown-item">南部</button></li>
+                            </ul>
+                        </div>
+
+                        <div class="dropdown class-dropdown">
+                            <button class="btn dropdown-toggle dropdown-button" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                類別
+                            </button>
+
+                            <ul class="dropdown-menu">
+                                <li><button class="dropdown-item">美食</button></li>
+                                <li><button class="dropdown-item">購物</button></li>
+                                <li><button class="dropdown-item">娛樂</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="divider"></div>
+            </div>
+
+            <div class="swiper-japan japan-content">
+                <div class="swiper-container japan-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide japan-slide">
+                            <div class="card">
+
+                                <div class="card-pic">
+                                    <img src="./img/japan1.png" class="img-fluid">
+                                </div>
+
+                                <div class="card-body d-flex">
+                                    <h3 class="card-title fs-20 mb-0">高爾夫球社</h3>
+                                    <img width="24" height="22" class="heart-white" src="./img/heart-space.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide japan-slide">
+                            <div class="card">
+
+                                <div class="card-pic">
+                                    <img src="./img/japan2.png" class="img-fluid">
+                                </div>
+
+                                <div class="card-body d-flex">
+                                    <h3 class="card-title fs-20 mb-0">棒球社</h3>
+                                    <img width="24" height="22" class="heart-white" src="./img/heart-space.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide japan-slide">
+                            <div class="card">
+
+                                <div class="card-pic">
+                                    <img src="./img/japan3.png" class="img-fluid">
+                                </div>
+
+                                <div class="card-body d-flex">
+                                    <h3 class="card-title fs-20 mb-0">網球社</h3>
+                                    <img width="24" height="22" class="heart-white" src="./img/heart-space.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide japan-slide">
+                            <div class="card">
+
+                                <div class="card-pic">
+                                    <img src="./img/japan3.png" class="img-fluid">
+                                </div>
+
+                                <div class="card-body d-flex">
+                                    <h3 class="card-title fs-20 mb-0">網球社</h3>
+                                    <img width="24" height="22" class="heart-white" src="./img/heart-space.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next japan-next"></div>
+                <div class="swiper-button-prev japan-prev"></div>
+                <div class="swiper-pagination japan-pagination"></div>
+            </div>
+        </div>
+
+        <!-- 生活小常識 -->
+        <div class="life-tips container">
+            <div class="title-container">
+                <div class="name-group">
+                    <h2 class="title">生活小常識</h2>
+                    <div class="filter-container">
+
+                        <div class="dropdown class-dropdown">
+                            <button class="btn dropdown-toggle dropdown-button" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                類別
+                            </button>
+
+                            <ul class="dropdown-menu">
+                                <li><button class="dropdown-item">美食</button></li>
+                                <li><button class="dropdown-item">購物</button></li>
+                                <li><button class="dropdown-item">娛樂</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="divider"></div>
+            </div>
+
+            <div class="swiper-tips tips-content">
+                <div class="swiper-container tips-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide tips-slide">
+                            <div class="card">
+
+                                <div class="card-pic">
+                                    <img src="./img/tips1.png" class="img-fluid">
+                                </div>
+
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h3 class="card-title fs-20 mb-0">高爾夫球社</h3>
+                                        <img width="24" height="22" class="heart" src="./img/heart-space.png">
+                                    </div>
+                                    <div class="tips-href"><a href="">...more...</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide tips-slide">
+                            <div class="card">
+                                <div class="card-pic">
+                                    <img src="./img/tips2.png" class="img-fluid">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h3 class="card-title fs-20 mb-0">高爾夫球社</h3>
+                                        <img width="24" height="22" class="heart" src="./img/heart-space.png">
+                                    </div>
+                                    <div class="tips-href"><a href="">...more...</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide tips-slide">
+                            <div class="card">
+
+                                <div class="card-pic">
+                                    <img src="./img/tips3.png" class="img-fluid">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h3 class="card-title fs-20 mb-0">高爾夫球社</h3>
+                                        <img width="24" height="22" class="heart" src="./img/heart-space.png">
+                                    </div>
+                                    <div class="tips-href"><a href="">...more...</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide tips-slide">
+                            <div class="card">
+
+                                <div class="card-pic">
+                                    <img src="./img/tips2.png" class="img-fluid">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h3 class="card-title fs-20 mb-0">高爾夫球社</h3>
+                                        <img width="24" height="22" class="heart" src="./img/heart-space.png">
+                                    </div>
+                                    <div class="tips-href"><a href="">...more...</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next tips-next"></div>
+                <div class="swiper-button-prev tips-prev"></div>
+                <div class="swiper-pagination tips-pagination"></div>
+            </div>
+        </div>
+
+
+        <!-- 商城 -->
+        <div class="mall container">
+            <div class="title-container">
+                <div class="name-group">
+                    <h2 class="title">商城</h2>
+                    <div class="filter-container">
+
+                        <div class="dropdown class-dropdown">
+                            <button class="btn dropdown-toggle dropdown-button" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                類別
+                            </button>
+
+                            <ul class="dropdown-menu">
+                                <li><button class="dropdown-item">美食</button></li>
+                                <li><button class="dropdown-item">購物</button></li>
+                                <li><button class="dropdown-item">娛樂</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="divider"></div>
+            </div>
+
+            <div class="swiper-mall mall-content">
+                <div class="swiper-container mall-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide mall-slide">
+                            <div class="card">
+
+                                <div class="card-pic">
+                                    <img src="./img/mall1.png" class="img-fluid">
+                                </div>
+
+                                <div class="card-body">
+                                    <div>
+                                        <h3 class="card-title fs-20 mb-0">【響100週年紀念版】</h3>
+                                        <div class="mall-content">
+                                            延續100周年慶祝氛圍，
+                                            再次隆重推出
+                                            「響Japanese Harmony」百年紀念款，
+                                            藉以完整串連日本威士忌的百年時間軸。
+                                        </div>
+                                        <span class="mall-Coupon">
+                                            限時優惠中
+                                        </span>
+                                        <div class="d-flex justify-content-between">
+                                            <div class="dollar">
+                                                NT$ 4,880
+                                            </div>
+                                            <div>
+                                                <img width="30" height="28" class="heart-space-white"
+                                                    src="./img/heart-space-white.png">
+                                                <img width="30" src="./img/shopping-cart.png" class="ms-2 me-2">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide mall-slide">
+                            <div class="card">
+                                <div class="card-pic">
+                                    <img src="./img/mall2.png" class="img-fluid">
+                                </div>
+                                <div class="card-body">
+                                    <div>
+                                        <h3 class="card-title fs-20 mb-0">【安博11代】</h3>
+                                        <div class="mall-content">
+                                            UBOX 11 安博十一年全面升級！
+                                            採用H618最新晶片、
+                                            全新的Android 12系統，
+                                            CPU全面升級，兼容性更強，
+                                            速度更快，穩定性更好。
+                                        </div>
+                                        <span class="mall-Coupon">
+                                            限時優惠中
+                                        </span>
+                                        <div class="d-flex justify-content-between">
+                                            <div class="dollar">
+                                                NT$ 4,880
+                                            </div>
+                                            <div>
+                                                <img width="30" height="28" class="heart-space-white"
+                                                    src="./img/heart-space-white.png">
+                                                <img width="30" src="./img/shopping-cart.png" class="ms-2 me-2">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide mall-slide">
+                            <div class="card">
+
+                                <div class="card-pic">
+                                    <img src="./img/mall3.png" class="img-fluid">
+                                </div>
+                                <div class="card-body">
+                                    <div>
+                                        <h3 class="card-title fs-20 mb-0">【DUYAN 竹漾】</h3>
+                                        <div class="mall-content">
+                                            Cool-Fi
+                                            奧地利天絲涼被 / 多款任選
+                                            台灣製(夜)
+                                        </div>
+                                        <span class="mall-Coupon">
+                                            限時優惠中
+                                        </span>
+                                        <div class="d-flex justify-content-between">
+                                            <div class="dollar">
+                                                NT$ 4,880
+                                            </div>
+                                            <div>
+                                                <img width="30" height="28" class="heart-space-white"
+                                                    src="./img/heart-space-white.png">
+                                                <img width="30" src="./img/shopping-cart.png" class="ms-2 me-2">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide mall-slide">
+                            <div class="card">
+
+                                <div class="card-pic">
+                                    <img src="./img/mall2.png" class="img-fluid">
+                                </div>
+                                <div class="card-body">
+                                    <div>
+                                        <h3 class="card-title fs-20 mb-0">【安博11代】</h3>
+                                        <div class="mall-content">
+                                            Cool-Fi
+                                            奧地利天絲涼被 / 多款任選
+                                            台灣製(夜)
+                                        </div>
+                                        <span class="mall-Coupon">
+                                            限時優惠中
+                                        </span>
+                                        <div class="d-flex justify-content-between">
+                                            <div class="dollar">
+                                                NT$ 4,880
+                                            </div>
+                                            <div>
+                                                <img width="30" height="28" class="heart-space-white"
+                                                    src="./img/heart-space-white.png">
+                                                <img width="30" src="./img/shopping-cart.png" class="ms-2 me-2">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next mall-next"></div>
+                <div class="swiper-button-prev mall-prev"></div>
+                <div class="swiper-pagination mall-pagination"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-strip desktop"></div>
+        <div class="footer-group mt-4">
+            <div class="container desktop">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <img width="218" src="./img/logo.png">
+                        <div class="mt-2">
+                            <i class="fas fa-user user-icon"></i>
+                        </div>
+
+                        <ul class="btn-ul mt-4" id="user-links">
+                            <li><a href="#" id="login-link">登入</a></li>
+                            <li><a href="#" id="register-link">註冊</a></li>
+                        </ul>
+                        <span id="edit-name-icon" style="display: none; cursor: pointer;">
+                            <i class="fa fa-pencil-alt"></i>
+                        </span>
+
+                        <div class="social-icons">
+                            <a href="#"><img id="line1-icon" src="./img/line1.png"></a>
+                            <a href="#"><img src="./img/email.png"></a>
+                            <a href="#"><img src="./img/yt.png"></a>
+                        </div>
+                        <div class="payment-icons">
+                            <img src="./img/card1.png">
+                            <img src="./img/card3.png">
+                            <img src="./img/card2.png">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <h5>關於我們</h5>
+                                <ul>
+                                    <li><a href="#">公司簡介</a></li>
+                                    <li><a href="#">最新消息</a></li>
+                                    <li><a href="#">Q&A</a></li>
+                                    <li><a href="#">聯絡我們</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4">
+                                <h5>服務項目</h5>
+                                <ul>
+                                    <li><a href="#">廣告刊登價格</a></li>
+                                    <li><a href="#">廣告刊登治詢</a></li>
+                                    <li><a href="#">不動產租賃</a></li>
+                                    <li><a href="#">其它服務</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4">
+                                <h5>會員中心</h5>
+                                <ul class="menu-list">
+                                    <li><a href="#">請登入</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-text text-center">
+                            ...森宇媒體有限公司...<br />
+                            | 免責聲明 | 隱私權政策 | 會員保密條款 | 使用條款 |<br />
+                            © 2024 City Life All Rights Reserved.
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <h6>...關鍵字...</h6>
+                        <div class="keyword-group">
+                            <a href="#" class="keyword-btn">酒吧</a>
+                            <a href="#" class="keyword-btn">餐廳</a>
+                            <a href="#" class="keyword-btn">按摩店/美容</a>
+                            <a href="#" class="keyword-btn">高爾夫球場</a>
+                            <a href="#" class="keyword-btn">日本人社團</a>
+                            <a href="#" class="keyword-btn">遊樂場</a>
+                            <a href="#" class="keyword-btn">飯店</a>
+                            <a href="#" class="keyword-btn">觀光</a>
+                            <a href="#" class="keyword-btn">生活</a>
+                            <a href="#" class="keyword-btn">租賃不動產</a>
+                            <a href="#" class="keyword-btn">商城</a>
+                            <a href="#" class="keyword-btn">店舖徵才</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-text text-center mobile">
+                森宇媒體有限公司<br />
+                © 2024 City Life All Rights Reserved.
+            </div>
+        </div>
+        <div class="footer-icons mobile">
+            <div class="footer-icon-item">
+                <a href="#" class="active">
+                    <i class="fa-solid fa-house"></i>
+                    <span>首頁</span>
+                </a>
+            </div>
+            <div class="footer-icon-item">
+                <a href="#">
+                    <i class="fa-solid fa-store"></i>
+                    <span>商城</span>
+                </a>
+            </div>
+            <div class="footer-icon-item">
+                <a href="#">
+                    <i class="fa-regular fa-heart"></i>
+                    <span>收藏</span>
+                </a>
+            </div>
+            <div class="footer-icon-item">
+                <a href="#">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span>購物車</span>
+                </a>
+            </div>
+            <div class="footer-icon-item">
+                <a href="#">
+                    <i class="fa-regular fa-user"></i>
+                    <span>會員中心</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sidebar desktop">
+        <div class="sidebar-item">
+            <button>
+                <img width="42" height="42" src="./img/sidebar1.png">
+            </button>
+
+        </div>
+        <div class="sidebar-item">
+            <button>
+                <img width="42" height="42" src="./img/sidebar2.png">
+            </button>
+        </div>
+        <div class="sidebar-item">
+            <button>
+                <img width="42" height="42" src="./img/sidebar3.png">
+            </button>
+
+            <span>瀏覽紀錄</span>
+        </div>
+        <div class="sidebar-item">
+            <button>
+                <img width="33" height="51" src="./img/sidebar4.png">
+            </button>
+        </div>
+        <div class="sidebar-item">
+            <button>
+                <img width="50" height="52" src="./img/sidebar5.png">
+            </button>
+        </div>
+        <div class="sidebar-item mt-5">
+            <a href="#top" class="back-to-top">▲ TOP</a>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+
+    var bannerSwiper = new Swiper('.swiper-banner .swiper-container', {
+        centeredSlides: true,
+        slidesPerView: 1,
+        loop: true,
+        spaceBetween: 5,
+        pagination: {
+            el: '.banner-swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.banner-swiper-next',
+            prevEl: '.banner-swiper-prev',
+        },
+        breakpoints: {
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 10
+            }
+        }
+    });
+
+    var memberSwiper = new Swiper(".swiper-member .swiper-container.member-container", {
+        slidesPerView: 2,
+        spaceBetween: 10,
+        loop: true,
+        navigation: {
+            nextEl: ".member-swiper-next",
+            prevEl: ".member-swiper-prev",
+        },
+        pagination: {
+            el: ".member-swiper-pagination",
+            clickable: true,
+        },
+        breakpoints: {
+            768: {
+                slidesPerView: 3,
+                spaceBetween: 60
+            }
+        }
+    });
+
+    var memberPic = new Swiper(".card-pic .swiper-container", {
+        slidesPerView: 1,
+        loop: true,
+        pagination: {
+            el: ".card-pic-pagination",
+            clickable: true,
+        },
+    });
+
+    var sightseeSwiper = new Swiper('.sightsee-container', {
+        slidesPerView: 1,
+        loop: true,
+        navigation: {
+            nextEl: '.sightsee-next',
+            prevEl: '.sightsee-prev',
+        },
+        pagination: {
+            el: '.sightsee-pagination',
+            clickable: true,
+        },
+    });
+
+    var japanSwiper = new Swiper('.japan-container', {
+        slidesPerView: 2,
+        spaceBetween: 10,
+        loop: true,
+        navigation: {
+            nextEl: '.japan-next',
+            prevEl: '.japan-prev',
+        },
+        pagination: {
+            el: '.japan-pagination',
+            clickable: true,
+        },
+        breakpoints: {
+            768: {
+                slidesPerView: 3,
+                spaceBetween: 30
+            }
+        }
+    });
+
+    var tipsSwiper = new Swiper('.tips-container', {
+        slidesPerView: 2,
+        spaceBetween: 10,
+        loop: true,
+        navigation: {
+            nextEl: '.tips-next',
+            prevEl: '.tips-prev',
+        },
+        pagination: {
+            el: '.tips-pagination',
+            clickable: true,
+        },
+        breakpoints: {
+            768: {
+                slidesPerView: 3,
+                spaceBetween: 30
+            }
+        }
+    });
+
+    var mallSwiper = new Swiper('.mall-container', {
+        slidesPerView: 2,
+        spaceBetween: 10,
+        loop: true,
+        navigation: {
+            nextEl: '.mall-next',
+            prevEl: '.mall-prev',
+        },
+        pagination: {
+            el: '.mall-pagination',
+            clickable: true,
+        },
+        breakpoints: {
+            768: {
+                slidesPerView: 3,
+                spaceBetween: 30
+            }
+        }
+    });
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const marquee = document.querySelector('.marquee');
+        marquee.addEventListener('mouseover', () => {
+            marquee.style.animationPlayState = 'paused';
+        });
+        marquee.addEventListener('mouseout', () => {
+            marquee.style.animationPlayState = 'running';
+        });
+    });
+
+    const hearts = document.querySelectorAll('.heart');
+    hearts.forEach(function (heart) {
+        heart.addEventListener('click', function () {
+            if (heart.classList.contains('clicked')) {
+                heart.src = './img/heart-space.png';
+                heart.classList.remove('clicked');
+            } else {
+                heart.src = './img/heart.png';
+                heart.classList.add('clicked');
+            }
+        });
+    });
+
+    const heartsWhite = document.querySelectorAll('.heart-white');
+    heartsWhite.forEach(function (heart) {
+        heart.addEventListener('click', function () {
+            if (heart.classList.contains('clicked')) {
+                heart.src = './img/heart-space.png';
+                heart.classList.remove('clicked');
+            } else {
+                heart.src = './img/heart-white.png';
+                heart.classList.add('clicked');
+            }
+        });
+    });
+
+    const heartsSpaceWhite = document.querySelectorAll('.heart-space-white');
+    heartsSpaceWhite.forEach(function (heart) {
+        heart.addEventListener('click', function () {
+            if (heart.classList.contains('clicked')) {
+                heart.src = './img/heart-space-white.png';
+                heart.classList.remove('clicked');
+            } else {
+                heart.src = './img/heart.png';
+                heart.classList.add('clicked');
+            }
+        });
+    });
+
+    const dropdownButtons = document.querySelectorAll('.dropdown-button');
+    dropdownButtons.forEach(button => {
+        const dropdownMenu = button.nextElementSibling;
+        dropdownMenu.querySelectorAll('.dropdown-item').forEach(item => {
+            item.addEventListener('click', function () {
+                button.textContent = this.textContent;
+            });
+        });
+    });
+
+    document.querySelector('.back-to-top').addEventListener('click', function (e) {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    const footerLinks = document.querySelectorAll('.footer-icon-item a');
+
+    footerLinks.forEach(link => {
+        link.addEventListener('click', function () {
+            footerLinks.forEach(l => l.classList.remove('active'));
+
+            this.classList.add('active');
+        });
+    });
+
+
+
+    const userInfo = {
+        isLoggedIn: true,  // 判斷登入
+        isBusiness: false,  // 判斷商家
+        name: "森宇媒體有限公司",  // 使用者名稱
+        username: '毛利小五郎', //會員名稱
+        memberId: "999999",  // 會員編號
+        status: "未刊登"
+    };
+
+    const menuList = document.querySelector('.menu-list');
+    const loginLink = document.getElementById('login-link');
+    const registerLink = document.getElementById('register-link');
+    const btnUl = document.querySelector('.btn-ul');
+    const footerBtnUl = document.querySelector('#user-links');
+
+    if (userInfo.isLoggedIn) {
+        const welcomeMessage = document.createElement('li');
+        const footerLoginMessage = document.createElement('li');
+        const additionalInfo = document.createElement('p');
+
+        if (userInfo.isBusiness) {
+            welcomeMessage.innerHTML = `${userInfo.name},您好!`;
+            footerLoginMessage.innerHTML = `${userInfo.name}`;
+            additionalInfo.innerHTML = `廣告狀態：${userInfo.status}`;
+            menuList.innerHTML = `
+            <li><a href="#">廣告管理</a></li>
+            <li><a href="#">店家管理</a></li>
+            <li><a href="#">廣告刊登教學</a></li>
+            <li><a href="#">City Life客服</a></li>
+        `;
+        } else {
+            welcomeMessage.innerHTML = `${userInfo.username},您好!`;
+            footerLoginMessage.innerHTML = `${userInfo.username}`;
+            additionalInfo.innerHTML = `會員編號：${userInfo.memberId}`;
+            menuList.innerHTML = `
+            <li><a href="#">訂單管理</a></li>
+            <li><a href="#">會員管理</a></li>
+            <li><a href="#">City Life客服</a></li>
+        `;
+        }
+
+        btnUl.innerHTML = '';
+        btnUl.appendChild(welcomeMessage);
+
+        footerBtnUl.innerHTML = '';
+        footerBtnUl.appendChild(footerLoginMessage);
+        footerBtnUl.appendChild(additionalInfo);
+
+        const footerEditNameIcon = document.createElement('span');
+        footerEditNameIcon.innerHTML = '<i class="fa fa-pencil-alt" style="cursor: pointer; margin-left: 5px;"></i>';
+        footerLoginMessage.appendChild(footerEditNameIcon);
+
+        footerEditNameIcon.addEventListener('click', () => {
+            const newName = prompt('請輸入新的名稱:', userInfo.name);
+            if (newName) {
+                userInfo.name = newName;
+                welcomeMessage.innerHTML = `${userInfo.name},您好!`;
+                footerLoginMessage.innerHTML = `${userInfo.name}`;
+                footerLoginMessage.appendChild(footerEditNameIcon);
+            }
+        });
+    }
+
+</script>
+
+</html>
