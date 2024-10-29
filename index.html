@@ -1314,8 +1314,8 @@
         </div>
     </footer>
 
-    <div class="sidebar desktop">
-        <div class="sidebar-item">
+    <div class="sidebar ">
+        <div class="sidebar-item desktop">
             <button>
                 <img width="42" height="42" src="./img/sidebar1.png">
             </button>
@@ -1534,6 +1534,18 @@
                 button.textContent = this.textContent;
             });
         });
+    });
+
+    window.addEventListener('scroll', function () {
+        var sidebar = document.querySelector('.sidebar');
+        var scrollPosition = window.scrollY || window.pageYOffset;
+        console.log("scrollPosition", scrollPosition)
+
+        if (scrollPosition > 300) {
+            sidebar.style.display = 'flex';
+        } else {
+            sidebar.style.display = 'none';
+        }
     });
 
     document.querySelector('.back-to-top').addEventListener('click', function (e) {
